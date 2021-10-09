@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+}
